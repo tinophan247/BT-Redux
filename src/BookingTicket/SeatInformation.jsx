@@ -4,19 +4,18 @@ const SeatInformation = () => {
   return (
     <div>
       <div className="mt-5">
-        <button className="selectedSeat"> </button>{" "}
+        <button className="selectedSeat"> </button>
         <span className="text-white" style={{ fontSize: "30px" }}>
           Ghế đã đặt
         </span>
         <br />
-        <button className="selectingSeat"> </button>{" "}
+        <button className="selectingSeat"> </button>
         <span className="text-white" style={{ fontSize: "30px" }}>
           Ghế đang đặt
         </span>
         <br />
         <button className="seat" style={{ marginLeft: 0 }}>
-          {" "}
-        </button>{" "}
+        </button>
         <span className="text-white" style={{ fontSize: "30px" }}>
           Ghế chưa đặt
         </span>

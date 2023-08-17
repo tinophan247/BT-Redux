@@ -12,6 +12,15 @@ const SeatRows = ({ seatRows, numberSeatRows }) => {
         disabled = true;
       }
 
+      // let cssSelectingSeat = '';
+      // let indexSelectingSeat = listSelectingSeats.findIndex(x=>x.numberSeat === item.numberSeat );
+      // if(indexSelectingSeat !== -1){
+      //   cssSelectingSeat = 'selectingSeat'
+      // }
+
+      // return <button disabled={disabled} className={`seat ${cssSelectedSeat} ${cssSelectingSeat}`} key={index}>
+      //     {item.numberSeat}
+      // </button>
 
       return <button disabled={disabled} className={`seat ${cssSelectedSeat} `} key={index}>
           {item.numberSeat}
